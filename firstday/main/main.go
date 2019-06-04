@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"second"
+	"go/firstday/second"
 )
 
 func main() {
@@ -10,4 +10,5 @@ func main() {
 	fmt.Println(second.Name)
 	// fmt.Println(second.getName())
 	fmt.Println(second.GetName())
+	second.Print()
 }
